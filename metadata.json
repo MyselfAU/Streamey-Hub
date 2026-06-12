@@ -1,0 +1,6 @@
+{
+  "name": "Streamey Hub",
+  "description": "A premium hub connecting you to all your favorite streaming platforms with a clean, animated interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
