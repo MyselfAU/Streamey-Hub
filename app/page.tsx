@@ -98,7 +98,7 @@ export default function Page() {
         </motion.div>
         
         <footer className="w-full flex items-center justify-center h-[60px] text-[12px] opacity-40 tracking-[1px] uppercase mt-8 border-t border-white/5 pt-8 text-center">
-          © {new Date().getFullYear()} Streamey Hub — Premium Matrix Protocol
+          © {new Date().getFullYear()} AHSAN ULLAH
         </footer>
       </main>
     </div>
