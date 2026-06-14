@@ -27,7 +27,7 @@ const platforms: Platform[] = [
   { name: "IPTV 2", url: "http://moviemazic.xyz/live-tv.html", category: "TV", icon: PlayCircle, color: "from-yellow-400 to-orange-500" },
   { name: "IPTV 3", url: "http://172.16.29.28/", category: "TV", icon: Film, color: "from-blue-600 to-blue-800" },
   { name: "StreamFree", url: "https://streamfree.app/", category: "TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
-  { name: "StreamFree 2", url: "https://streamfree.top/", category: "TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
+  { name: "StreamFree", url: "https://streamfree.top/", category: "TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
   
 ];
 
