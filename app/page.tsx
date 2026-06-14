@@ -18,14 +18,16 @@ type Platform = {
 };
 
 const platforms: Platform[] = [
-  { name: "NTV", url: "https://ntv.cx/", category: "Movies & TV", icon: Film, color: "from-red-600 to-red-900" },
-  { name: "StreamFree", url: "https://streamfree.app/", category: "Movies & TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
-  { name: "StreamFree 2", url: "https://streamfree.top/", category: "Movies & TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "Aroon Tv", url: "https://aronno.tv/", category: "Movies & TV", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
-  { name: "Sportsbite", url: "https://sportsbite.xyz/", category: "Movies & TV", icon: MonitorPlay, color: "from-purple-600 to-indigo-800" },
-  { name: "Sportyhunter", url: "https://sportyhunter.xyz/", category: "Movies & TV", icon: Tv, color: "from-zinc-700 to-zinc-900" },
-  { name: "IPTV", url: "http://moviemazic.xyz/live-tv.html", category: "Movies & TV", icon: PlayCircle, color: "from-yellow-400 to-orange-500" },
-  { name: "IPTV 2", url: "http://172.16.29.28/", category: "Movies & TV", icon: Film, color: "from-blue-600 to-blue-800" },
+  { name: "NTV", url: "https://ntv.cx/", category: "TV", icon: Film, color: "from-red-600 to-red-900" },
+  { name: "Movielinkbd", url: "https://47wxj3.movielinkbd.li/", category: "TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
+  { name: "Movielinkbd 2", url: "https://b7nz75.movielinkbd.pw/", category: "TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
+  { name: "Sportzfy", url: "https://sportzfytvlive.xyz/", category: "TV", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
+  { name: "A1 TV", url: "https://firebrick-lyrebird-706557.hostingersite.com/", category: "TV", icon: MonitorPlay, color: "from-purple-600 to-indigo-800" },
+  { name: "IPTV", url: "http://172.19.178.180/", category: "TV", icon: Tv, color: "from-zinc-700 to-zinc-900" },
+  { name: "IPTV 2", url: "http://moviemazic.xyz/live-tv.html", category: "TV", icon: PlayCircle, color: "from-yellow-400 to-orange-500" },
+  { name: "IPTV 3", url: "http://172.16.29.28/", category: "TV", icon: Film, color: "from-blue-600 to-blue-800" },
+  { name: "StreamFree", url: "https://streamfree.app/", category: "TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
+  { name: "StreamFree 2", url: "https://streamfree.top/", category: "TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
   
 ];
 
