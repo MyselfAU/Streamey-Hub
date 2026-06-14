@@ -25,7 +25,7 @@ const platforms: Platform[] = [
   { name: "A1 TV", url: "https://firebrick-lyrebird-706557.hostingersite.com/", category: "Live TV", icon: MonitorPlay, color: "from-purple-600 to-indigo-800" },
   { name: "IPTV", url: "http://172.19.178.180/", category: "Live TV", icon: Tv, color: "from-zinc-700 to-zinc-900" },
   { name: "IPTV 2", url: "http://moviemazic.xyz/live-tv.html", category: "Live TV", icon: PlayCircle, color: "from-yellow-400 to-orange-500" },
-  { name: "IPTV 3", url: "http://172.16.29.28/", category: "Live TV", icon: Film, color: "from-blue-600 to-blue-800" },
+  { name: "IPTV 3", url: "http://172.19.17.28/", category: "Live TV", icon: Film, color: "from-blue-600 to-blue-800" },
   { name: "StreamFree", url: "https://streamfree.app/", category: "Live TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
   { name: "StreamFree", url: "https://streamfree.top/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
   
