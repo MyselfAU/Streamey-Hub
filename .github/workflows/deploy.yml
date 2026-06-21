@@ -1,4 +1,4 @@
-name: Deploy Google AI Studio App to Pages
+name: Streamey Hub to Pages
 
 on:
   push:
