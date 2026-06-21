@@ -12,7 +12,7 @@ import {
 type Platform = {
   name: string;
   url: string;
-  category: "Movies & TV" | "Music" | "Gaming" | "Video" | "Anime" | "Live TV";
+  category: "Movies" | "Music" | "Gaming" | "Video" | "Anime" | "Live TV";
   icon: React.ElementType;
   color: string;
 };
@@ -28,13 +28,13 @@ const platforms: Platform[] = [
   { name: "IPTV 3", url: "http://172.19.17.28/", category: "Live TV", icon: Film, color: "from-blue-600 to-blue-800" },
   { name: "StreamFree", url: "https://streamfree.app/", category: "Live TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
   { name: "StreamFree", url: "https://streamfree.top/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "Moviemazic", url: "http://moviemazic.xyz/movies.html", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "WoW Movie", url: "http://172.27.27.84/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "BasPlay", url: "http://10.20.30.40/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "ICC FTP", url: "http://10.16.100.244/dashboard.php?session=5fed778674d507ce2b8c7d40561ec575eec59b7c149ad584a8dfa7271ca8fcc7", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "DiscoveryFTP", url: "https://discoveryftp.net/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "DFLIX FTP", url: "https://movies.discoveryftp.net/m", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "Cloud Media", url: "http://172.19.178.179/index.php", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
+  { name: "Moviemazic", url: "http://moviemazic.xyz/movies.html", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "WoW Movie", url: "http://172.27.27.84/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "BasPlay", url: "http://10.20.30.40/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "ICC FTP", url: "http://10.16.100.244/dashboard.php?session=5fed778674d507ce2b8c7d40561ec575eec59b7c149ad584a8dfa7271ca8fcc7", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "DiscoveryFTP", url: "https://discoveryftp.net/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "DFLIX FTP", url: "https://movies.discoveryftp.net/m", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "Cloud Media", url: "http://172.19.178.179/index.php", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
    
 ];
 
