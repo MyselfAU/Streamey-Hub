@@ -18,15 +18,15 @@ type Platform = {
 };
 
 const platforms: Platform[] = [
-  { name: "NTV", url: "https://ntv.cx/", category: "Live TV", icon: Film, color: "from-red-600 to-red-900" },
-  { name: "Movielinkbd", url: "https://47wxj3.movielinkbd.li/", category: "Live TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
+  { name: "NTV", url: "https://ntv.cx/", category: "Live TV", icon: Tv, color: "from-red-600 to-red-900" },
+  { name: "Movielinkbd", url: "https://47wxj3.movielinkbd.li/", category: "Live TV", icon: Tv, color: "from-blue-500 to-cyan-600" },
   { name: "Movielinkbd 2", url: "https://b7nz75.movielinkbd.pw/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "Sportzfy", url: "https://sportzfytvlive.xyz/", category: "Live TV", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
-  { name: "A1 TV", url: "https://firebrick-lyrebird-706557.hostingersite.com/", category: "Live TV", icon: MonitorPlay, color: "from-purple-600 to-indigo-800" },
+  { name: "Sportzfy", url: "https://sportzfytvlive.xyz/", category: "Live TV", icon: Tv, color: "from-green-500 to-emerald-700" },
+  { name: "A1 TV", url: "https://firebrick-lyrebird-706557.hostingersite.com/", category: "Live TV", icon: Tv, color: "from-purple-600 to-indigo-800" },
   { name: "IPTV", url: "http://172.19.178.180/", category: "Live TV", icon: Tv, color: "from-zinc-700 to-zinc-900" },
-  { name: "IPTV 2", url: "http://moviemazic.xyz/live-tv.html", category: "Live TV", icon: PlayCircle, color: "from-yellow-400 to-orange-500" },
-  { name: "IPTV 3", url: "http://172.19.17.28/", category: "Live TV", icon: Film, color: "from-blue-600 to-blue-800" },
-  { name: "StreamFree", url: "https://streamfree.app/", category: "Live TV", icon: PlaySquare, color: "from-blue-500 to-cyan-600" },
+  { name: "IPTV 2", url: "http://moviemazic.xyz/live-tv.html", category: "Live TV", icon: Tv, color: "from-yellow-400 to-orange-500" },
+  { name: "IPTV 3", url: "http://172.19.17.28/", category: "Live TV", icon: Tv, color: "from-blue-600 to-blue-800" },
+  { name: "StreamFree", url: "https://streamfree.app/", category: "Live TV", icon: Tv, color: "from-blue-500 to-cyan-600" },
   { name: "StreamFree", url: "https://streamfree.top/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
   { name: "Moviemazic", url: "http://moviemazic.xyz/movies.html", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
   { name: "WoW Movie", url: "http://172.27.27.84/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
