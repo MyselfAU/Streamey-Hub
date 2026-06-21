@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   },
   // Allow access to remote image placeholder.
   images: {
-    unoptimized: true, // <-- REQUIRED FOR GITHUB PAGES (GitHub doesn't support dynamic Next.js image optimization)
+    unoptimized: true, 
     remotePatterns: [
       {
         protocol: 'https',
@@ -24,7 +24,7 @@ const nextConfig: NextConfig = {
   basePath: '/Streamey-Hub', // <-- ADD THIS LINE MATCHING YOUR REPO NAME
   transpilePackages: ['motion'],
   webpack: (config, { dev }) => {
-    // HMR is disabled in AI Studio via DISABLE_HMR env var.
+    
     // Do not modify—file watching is disabled to prevent flickering during agent edits.
     if (dev && process.env.DISABLE_HMR === 'true') {
       config.watchOptions = {
