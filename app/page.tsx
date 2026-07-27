@@ -18,21 +18,25 @@ type Platform = {
 };
 
 const platforms: Platform[] = [
-  { name: "NTV", url: "https://ntv.cx/", category: "Live TV", icon: Tv, color: "from-red-600 to-red-900" },
-  { name: "Movielinkbd", url: "https://47wxj3.movielinkbd.li/", category: "Live TV", icon: Tv, color: "from-blue-500 to-cyan-600" },
-  { name: "Movielinkbd 2", url: "https://b7nz75.movielinkbd.pw/", category: "Live TV", icon: Tv, color: "from-blue-700 to-indigo-900" },
-  { name: "Sportzfy", url: "https://sportzfytvlive.xyz/", category: "Live TV", icon: Tv, color: "from-green-500 to-emerald-700" },
-  { name: "IPTV", url: "http://172.19.178.180/", category: "Live TV", icon: Tv, color: "from-zinc-700 to-zinc-900" },
-  { name: "IPTV 2", url: "http://moviemazic.xyz/live-tv.html", category: "Live TV", icon: Tv, color: "from-yellow-400 to-orange-500" },
-  { name: "IPTV 3", url: "http://172.19.17.28/", category: "Live TV", icon: Tv, color: "from-blue-600 to-blue-800" },
+  { name: "DhakaInternet", url: "https://www.dhakainternet.com/", category: "Movies", icon: Tv, color: "from-blue-500 to-cyan-600" },
+  { name: "Movielinkbd", url: "https://47wxj3.movielinkbd.li/", category: "Movies", icon: Tv, color: "from-blue-500 to-cyan-600" },
+  { name: "Movielinkbd 2", url: "https://b7nz75.movielinkbd.pw/", category: "Movies", icon: Tv, color: "from-blue-700 to-indigo-900" },
+  { name: "ShowBox", url: "https://showboxmovies.one/", category: "Movies", icon: Tv, color: "from-green-500 to-emerald-700" },
+  { name: "Cineby", url: "https://www.cineby.at/", category: "Movies", icon: Tv, color: "from-red-600 to-red-900" },
+  { name: "Sflix", url: "https://xtubeflix.com/latest-movies/", category: "Movies", icon: Tv, color: "from-yellow-400 to-orange-500" },
+  { name: "Fmoviess", url: "https://fmoviess.org/movies/", category: "Movies", icon: Tv, color: "from-blue-600 to-blue-800" },
   { name: "Moviemazic", url: "http://moviemazic.xyz/movies.html", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
-  { name: "WoW Movie", url: "http://172.27.27.84/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
-  { name: "BasPlay", url: "http://10.20.30.40/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "WoW Movie", url: "http://172.27.27.84/", category: "Movies", icon: Clapperboard, color: "from-yellow-400 to-orange-500" },
+  { name: "BasPlay", url: "http://10.20.30.40/", category: "Movies", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
   { name: "ICC FTP", url: "http://10.16.100.244/dashboard.php?session=5fed778674d507ce2b8c7d40561ec575eec59b7c149ad584a8dfa7271ca8fcc7", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
-  { name: "DiscoveryFTP", url: "https://discoveryftp.net/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
-  { name: "DFLIX FTP", url: "https://movies.discoveryftp.net/m", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
-  { name: "Cloud Media", url: "http://172.19.178.179/index.php", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
-   
+  { name: "DiscoveryFTP", url: "https://discoveryftp.net/", category: "Movies", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
+  { name: "Cloud Media", url: "http://172.19.178.179/index.php", category: "Movies", icon: Clapperboard, color: "from-red-600 to-red-900" },
+  { name: "Hdtoday", url: "https://hdtoday.one/", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "Ahoylist", url: "https://ahoylist.net/movies-and-tv-shows", category: "Movies", icon: Clapperboard, color: "from-blue-700 to-indigo-900" },
+  { name: "Piradex", url: "https://piradex.com/movies-and-tv-shows", category: "Movies", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
+  { name: "FMHY", url: "https://fmhy.net/video", category: "Movies", icon: Clapperboard, color: "from-blue-500 to-cyan-600" },
+  { name: "AhoyList GitHub", url: "https://github.com/yarrlist/AhoyList", category: "Movies", icon: Clapperboard, color: "from-zinc-700 to-zinc-900" },
+  
 ];
 
 export default function Page() {
