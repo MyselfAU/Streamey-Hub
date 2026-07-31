@@ -36,6 +36,13 @@ const platforms: Platform[] = [
   { name: "Piradex", url: "https://piradex.com/movies-and-tv-shows", category: "Movies", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
   { name: "FMHY", url: "https://fmhy.net/video", category: "Movies", icon: Clapperboard, color: "from-blue-500 to-cyan-600" },
   { name: "AhoyList GitHub", url: "https://github.com/yarrlist/AhoyList", category: "Movies", icon: Clapperboard, color: "from-zinc-700 to-zinc-900" },
+  { name: "Hdhub4u", url: "https://new3.hdhub4u.cl/?utm=mn1", category: "Movies", icon: Clapperboard, color: "from-green-500 to-emerald-700" },
+  { name: "TheMoviesBoss", url: "https://ww2.themoviesboss.blog/", category: "Movies", icon: Clapperboard, color: "from-blue-500 to-cyan-600" },
+  { name: "Aniwaves", url: "https://aniwaves.ru/", category: "Movies", icon: Clapperboard, color: "from-zinc-700 to-zinc-900" },
+  { name: "Hianimes", url: "https://hianimes.se/", category: "Movies", icon: Tv, color: "from-green-500 to-emerald-700" },
+  { name: "Shiroko", url: "https://shiroko.co/", category: "Movies", icon: Tv, color: "from-red-600 to-red-900" },
+  { name: "Yomi", url: "https://yomi.to/", category: "Movies", icon: Tv, color: "from-yellow-400 to-orange-500" },
+  { name: "Aenime", url: "https://aenime.qzz.io/", category: "Movies", icon: Tv, color: "from-blue-600 to-blue-800" },
   
 ];
 
